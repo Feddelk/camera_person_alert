@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# YOLOv8 models
+*.pt
+*.onnx
+runs/
+weights/
+
+# Capturas
+temp_captures/
+*.jpg
+*.jpeg
+*.png
+
+# Configuración local
+.env
+config.py
+config_local.json
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
