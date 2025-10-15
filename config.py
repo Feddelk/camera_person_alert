@@ -1,11 +1,11 @@
 # Person Detection System Configuration
-# Copy this file to config.py and edit with your values
+# Edit these values with your settings
 
 # ==================== CAMERA ====================
 RTSP_URL = "rtsp://username:password@192.168.1.100:554/stream"  # Your RTSP camera or "0" for webcam
 
 # ==================== TELEGRAM ====================
-TELEGRAM_BOT_TOKEN = ""  # Get from @BotFather on Telegram
+TELEGRAM_BOT_TOKEN = ""  # Get from @BotFather on Telegram (leave empty to disable)
 TELEGRAM_CHAT_ID = ""    # Get from @userinfobot on Telegram
 
 # ==================== DETECTION ====================
@@ -16,7 +16,7 @@ YOLO_MODEL = "yolov8n.pt"   # yolov8n.pt (fast) or yolov8s.pt (accurate)
 NOTIFY_START_HOUR = 0       # Start hour (0-23) in your LOCAL timezone
 NOTIFY_END_HOUR = 24        # End hour (0-24) in your LOCAL timezone
 COOLDOWN_SECONDS = 15       # Seconds between notifications
-UTC_OFFSET = 0              # Your UTC offset (e.g., -3 for Argentina, +9 for Japan)
+UTC_OFFSET = 0              # Your UTC offset in hours (e.g., -3 for Argentina, +9 for Japan, -5 for NY, 0 for London)
 
 # ==================== SERVER ====================
 HOST = "0.0.0.0"           # 0.0.0.0 for remote access, 127.0.0.1 local only
