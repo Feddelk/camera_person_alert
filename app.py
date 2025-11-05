@@ -2,7 +2,7 @@ from flask import Flask, render_template, Response, request, jsonify
 from camera import VideoCamera, DetectorConfig
 import threading, time, os, sys
 
-# Load configuration - REQUIRED
+# Load configuration - REQUIRED###
 try:
     import config
 except ImportError:
